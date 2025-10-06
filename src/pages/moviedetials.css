@@ -1,0 +1,96 @@
+.details-container {
+  padding: 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.85);
+  min-height: 100vh;
+  backdrop-filter: blur(12px);
+}
+
+.details-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #e50914; /* Netflix red */
+}
+
+.details-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.details-poster img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.details-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.tagline {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.overview {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.genres .badge {
+  display: inline-block;
+  background: #e50914;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.meta {
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.details-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.details-table th {
+  text-align: left;
+  padding: 0.6rem;
+  color: #aaa;
+  width: 150px;
+}
+
+.details-table td {
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.imdb-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #f5c518;
+  color: #000;
+  font-weight: bold;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.imdb-btn:hover {
+  background: #e2b112;
+}

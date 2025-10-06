@@ -1,0 +1,28 @@
+/* ===== Logout Button ===== */
+.btn-primary {
+  background-color: #e50914; /* Netflix-style red */
+  color: #fff;
+  font-weight: 700;
+  padding: 0.9rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #f6121d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(246, 18, 29, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(246, 18, 29, 0.4);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

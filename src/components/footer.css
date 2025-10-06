@@ -1,0 +1,28 @@
+.footer {
+  background: url("../assets/footer-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 3rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.footer-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e50914;
+}
+
+.footer-content p {
+  margin-bottom: 1rem;
+}
+
+.socials a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #e50914;
+}
